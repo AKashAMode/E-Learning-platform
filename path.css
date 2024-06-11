@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #153448;
+}
+
+.text-end button a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.hero {
+    background-image: url('homepage-images/study.jpg');
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg {
+   background-color: white;
+   color: black;
+   border: 3px solid pink;
+   height: 30px;
+   margin: 0 auto;
+   display: inline-block;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   font-size: 0.85rem;
+   width: 60%;
+   align-content: center;
+   margin-bottom: 25px;
+
+}
+
+
+
+.hero-msg p a {
+     
+    text-decoration: none;
+    
+}
+
+.hero-msg p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.custom-background {
+    background-color: rgb(7, 80, 90);
+}
+
+
+.card-body {
+
+    background-color: #3C5B6F;
+    color: white;
+    border-bottom-right-radius: 5px;
+}
+
+
+#card-items {
+    margin-top: 30px;
+    
+
+}
+
+#cards {
+    margin-top: 10px;
+    background-color: rgb(37, 34, 34);
+}
+
+.btn-group button a  {
+
+      color: #7ABA78;
+      text-decoration: none;
+}
+
+
+#card-items {
+   
+    color: white;
+}
+
+
+
+#footer-contain {
+    color: white;
+}
+
+ 
+

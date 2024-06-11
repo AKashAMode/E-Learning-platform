@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin-page</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+
+    <div class="container1">
+
+        <form class="form" >
+            <p class="title">signin</p>
+            <p class="message">signin now and get full access to our app.</p>
+                 
+                    
+            <label>
+                <input class="input" id="username" type="username"  required="" name="username">
+                <span>usernmae</span>
+            </label> 
+                
+            <label>
+                <input class="input" id="password_user" type="password" required="" name="password">
+                <span>Password</span>
+            </label>
+             
+            <button class="submit" onclick="sign ()"  id="submit" value="sign"><a href="#">Submit</a></button>
+            
+        </form>
+        <!-- <p id="text-show">suggestion text</p> -->
+    
+    </div>
+    
+
+    <script>
+
+        function sign () {
+            let usarname =document.getElementById("username").value;
+            let password1 =document.getElementById("password_user").value;
+            
+            
+        let website_username = "Akasha";
+        let website_password = "123456";
+
+
+        if( usarname == website_username && password1 == website_password) {
+
+
+            window.location ="home.html"
+
+
+            // window.location ="singup.html"
+
+        }
+        
+        }
+        
+        </script>
+</body>
+</html>
